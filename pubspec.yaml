@@ -1,7 +1,11 @@
 name: belajar_dart_packages
 description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+
+# Hal yang perlu dilakukan ketika upgrade package adalah mengubah version ke yang lebih tinggi.
+# version: 1.0.0 # Ini versi awal
+version: 1.5.0 # Setelah upgrade
+
+# Ketika menggunakan git, disarankan menambahkan tag baru sesuai dengan version.
 
 environment:
   sdk: ^3.0.5

@@ -4,5 +4,6 @@
  * hal ini dikarenakan kode di src digunakan sebagai internal library.
  */
 String sayHello(String name) {
-  return 'Hello $name';
+  // return 'Hello $name'; // Versi awal
+  return 'Hello $name, nice to see you'; // Setelah upgrade
 }
